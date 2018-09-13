@@ -10,6 +10,8 @@ For mqtt we will be using paho-mqtt, which can be installed by:-
 ```
 pip install paho-mqtt
 ```
+And after that, make an empty file named "output.png" in the same folder as the client script. You can use the provided file.
+
 Note: The above scripts are made for python 2.7, python 3 is your adventure!
 
 ## Running the scripts
