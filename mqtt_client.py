@@ -1,6 +1,6 @@
+#!/bin/python3
 import paho.mqtt.client as mqtt
 import base64  
-
 def on_connect(client, userdata, flags, rc):
   print("Connected with result code "+str(rc))
   client.subscribe("images")
